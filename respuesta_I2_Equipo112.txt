@@ -1,0 +1,25 @@
+Fernández Agustín - Fontanetto Ignacio
+
+a- Tenés que sincronizar el fork con el repositorio original y después clickear donde dice update branch en la notificación del repositorio.
+Hay otra forma de hacerlo desde la consola, con comandos como git fetch upstream.
+
+b- No lo sabemos porque no hay gamma en el equipo. Suponemos que se puede hacer perfectamente a partir de upstream.
+
+c- Asumimos que se puede perfectamente. Tanto alfa como gamma no son dueños del repositorio original, sino que tienen un fork. Si el primero puede actualizar al segundo, el segundo debería poder actualizar al primero sin problema.
+
+d- No, los datos que uno haya editado se mantienen al actualizar al repositorio original.
+
+e- Fontanetto Ignacio: 1. git clone https://github.com/NachoFonta12/TP_SO_i2_Equipo112.git
+2. git add .
+3. git commit -m "create fork.txt"
+4. git push
+Fernandez Agustín: 1. git clone clone https://github.com/NachoFonta12/TP_SO_i2_Equipo112.git
+2. git add . 
+3. git commit -m ""
+4. git push
+Fontanetto Ignacio:
+1. git add .
+git commit - "Creado NuevoDato"
+git push
+Fernandez Agustín: 1. git remote -v 
+2. git remote add upstream https://github.com/NachoFonta12/TP_SO_i2_Equipo112.git
